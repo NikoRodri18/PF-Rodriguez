@@ -72,13 +72,8 @@ form{
     display :flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
     margin: auto;
-}
-
-input:focus{
-    width: 15rem;
-    outline: none;
 }
 
 textarea:focus{
