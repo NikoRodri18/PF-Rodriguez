@@ -1,0 +1,17 @@
+/* Inicio estilos contacto*/
+label{
+    color: rgba(255, 166, 0, 0.644);
+}
+form{
+    width: max-content;
+    display :flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin: auto;
+}
+
+textarea:focus{
+    width: 30rem;
+    outline: none;
+}

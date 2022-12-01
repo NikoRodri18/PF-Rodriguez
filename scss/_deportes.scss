@@ -1,0 +1,18 @@
+/* Inicio estilos deportes*/
+td ,
+tr {
+color: black;
+}
+
+table{
+    background-color:#ffffff;
+    margin:1rem;
+
+}
+tr:hover{
+    background-color: #21c512d3;
+    transition: all 1s;
+}
+thead{
+    background-color: #21c512d3;
+}
