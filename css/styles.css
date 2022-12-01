@@ -42,6 +42,7 @@ img {
 p {
   color: #ffffff;
   line-height: 1.2;
+  text-align: justify;
 }
 
 /*Index*/
@@ -79,6 +80,10 @@ p {
     width: 100%;
   }
 }
+.card {
+  background-color: rgb(25, 161, 25);
+}
+
 /* Inicio estilos contacto*/
 label {
   color: rgba(255, 166, 0, 0.644);
