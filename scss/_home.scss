@@ -2,7 +2,7 @@
 
 
 .cabeza {
-    background-color: $color_verde;
+    @include fondo_verde;
     position:fixed;
     top: 0;
     z-index: 2;
@@ -12,5 +12,5 @@
 
 
 .pie{
-    background-color:$color_verde;
+    @include fondo_verde;
 }

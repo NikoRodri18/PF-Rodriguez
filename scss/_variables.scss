@@ -2,3 +2,14 @@ $color_verde: rgb(25, 161, 25);
 $color_naranja: rgba(255, 166, 0, 0.644);
 $color_blanco: #ffffff;
 $fuente_principal:'Roboto', sans-serif;
+
+@mixin fondo_verde {
+    background-color: $color_verde;
+}
+
+@mixin flex-column-centrado {
+    width: max-content;
+    display :flex;
+    flex-direction: column;
+    align-items: center;
+}
