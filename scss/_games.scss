@@ -1,0 +1,29 @@
+.cards {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   row-gap: 2rem;
+   justify-items: center;
+}
+
+@media screen and (max-width: 992px) {
+   .cards {
+      grid-template-columns: repeat(2, 1fr);
+   }
+}
+
+@media screen and (max-width: 767px) {
+   .cards {
+      @include card-column-centrado;
+   }
+}
+
+.card-premio {
+   width: 16rem;
+   border: solid 2px $color_naranja;
+   @include card-column-centrado;
+   padding: 1rem;
+}
+
+.card-premio img {
+   height: 12rem;
+}

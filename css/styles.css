@@ -123,4 +123,36 @@ thead {
   background-color: rgba(33, 197, 18, 0.8274509804);
 }
 
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 2rem;
+  justify-items: center;
+}
+
+@media screen and (max-width: 992px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 767px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.card-premio {
+  width: 16rem;
+  border: solid 2px rgba(255, 166, 0, 0.644);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.card-premio img {
+  height: 12rem;
+}
+
 /*# sourceMappingURL=styles.css.map */
